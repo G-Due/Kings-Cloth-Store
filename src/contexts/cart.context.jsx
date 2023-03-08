@@ -40,7 +40,7 @@ const INITIAL_STATE = {
     cartItems: [],
     cartCount: 0,
     totalCount: 0,
-};
+}; 
 
 const cartReducer = (state, action) => {
     const { type, payload } = action;
